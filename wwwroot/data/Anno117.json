@@ -1,0 +1,320 @@
+{
+  "Goods": [
+    "Holz",
+    "Bretter",
+    "Sardinen",
+    "Hafer",
+    "Haferbrei",
+    "Hanf",
+    "Tuniken",
+    "Schafe",
+    "Pilei",
+    "Lehm",
+    "Kohle",
+    "Ziegel",
+    "Weizen",
+    "Mehl",
+    "Brot",
+    "Makrelen",
+    "Salz",
+    "Garum",
+    "Schweine",
+    "Schmalz",
+    "Lavandula",
+    "Seife",
+    "Leder",
+    "Sandalen",
+    "Segel",
+    "Seile",
+    "Eisenerz",
+    "Eisen",
+    "Waffen",
+    "Harz",
+    "Amphoren",
+    "Oliven",
+    "Olivenöl",
+    "Weintrauben",
+    "Honigwaben",
+    "Wein"
+  ],
+  "Buildings": [
+    {
+      "Name": "Holzfäller",
+      "Belonging": "Latium",
+      "Produces": "Holz",
+      "Requires": [],
+      "SecondsToProduce": 30
+    },
+    {
+      "Name": "Sägewerk",
+      "Belonging": "Latium",
+      "Produces": "Bretter",
+      "Requires": [
+        "Holz"
+      ],
+      "SecondsToProduce": 30
+    },
+    {
+      "Name": "Ziegelei",
+      "Belonging": "Latium",
+      "Produces": "Ziegel",
+      "Requires": [
+        "Lehm",
+        "Kohle"
+      ],
+      "SecondsToProduce": 60
+    },
+    {
+      "Name": "Lehmgrube",
+      "Belonging": "Latium",
+      "Produces": "Lehm",
+      "Requires": [],
+      "SecondsToProduce": 30
+    },
+    {
+      "Name": "Köhler",
+      "Belonging": "Latium",
+      "Produces": "Kohle",
+      "Requires": [],
+      "SecondsToProduce": 30
+    },
+    {
+      "Name": "Seilmacher",
+      "Belonging": "Latium",
+      "Produces": "Seile",
+      "Requires": [
+        "Hanf"
+      ],
+      "SecondsToProduce": 120
+    },
+    {
+      "Name": "Hanfhof",
+      "Belonging": "Latium",
+      "Produces": "Hanf",
+      "Requires": [],
+      "SecondsToProduce": 60
+    },
+    {
+      "Name": "Segelmacher",
+      "Belonging": "Latium",
+      "Produces": "Segel",
+      "Requires": [
+        "Schafe"
+      ],
+      "SecondsToProduce": 90
+    },
+    {
+      "Name": "Schafshof",
+      "Belonging": "Latium",
+      "Produces": "Schafe",
+      "Requires": [],
+      "SecondsToProduce": 30
+    },
+    {
+      "Name": "Sardinenhütte",
+      "Belonging": "Latium",
+      "Produces": "Sardinen",
+      "Requires": [],
+      "SecondsToProduce": 60
+    },
+    {
+      "Name": "Garküche",
+      "Belonging": "Latium",
+      "Produces": "Haferbrei",
+      "Requires": [
+        "Hafer"
+      ],
+      "SecondsToProduce": 60
+    },
+    {
+      "Name": "Haferhof",
+      "Belonging": "Latium",
+      "Produces": "Hafer",
+      "Requires": [],
+      "SecondsToProduce": 60
+    },
+    {
+      "Name": "Spinnerei",
+      "Belonging": "Latium",
+      "Produces": "Tuniken",
+      "Requires": [
+        "Hanf"
+      ],
+      "SecondsToProduce": 60
+    },
+    {
+      "Name": "Pileusfilzer",
+      "Belonging": "Latium",
+      "Produces": "Pilei",
+      "Requires": [
+        "Schafe"
+      ],
+      "SecondsToProduce": 60
+    },
+    {
+      "Name": "Bäckerei",
+      "Belonging": "Latium",
+      "Produces": "Brot",
+      "Requires": [
+        "Mehl",
+        "Kohle"
+      ],
+      "SecondsToProduce": 60
+    },
+    {
+      "Name": "Kornmühle",
+      "Belonging": "Latium",
+      "Produces": "Mehl",
+      "Requires": [
+        "Weizen"
+      ],
+      "SecondsToProduce": 30
+    },
+    {
+      "Name": "Weizenhof",
+      "Belonging": "Latium",
+      "Produces": "Weizen",
+      "Requires": [],
+      "SecondsToProduce": 60
+    },
+    {
+      "Name": "Garumsaucier",
+      "Belonging": "Latium",
+      "Produces": "Garum",
+      "Requires": [
+        "Makrelen",
+        "Salz"
+      ],
+      "SecondsToProduce": 90
+    },
+    {
+      "Name": "Makrelenhütte",
+      "Belonging": "Latium",
+      "Produces": "Makrelen",
+      "Requires": [],
+      "SecondsToProduce": 60
+    },
+    {
+      "Name": "Salzgärten",
+      "Belonging": "Latium",
+      "Produces": "Salz",
+      "Requires": [],
+      "SecondsToProduce": 30
+    },
+    {
+      "Name": "Sandalenmacher",
+      "Belonging": "Latium",
+      "Produces": "Sandalen",
+      "Requires": [
+        "Leder"
+      ],
+      "SecondsToProduce": 120
+    },
+    {
+      "Name": "Gerberei",
+      "Belonging": "Latium",
+      "Produces": "Leder",
+      "Requires": [
+        "Schweine",
+        "Salz"
+      ],
+      "SecondsToProduce": 60
+    },
+    {
+      "Name": "Schweinehof",
+      "Belonging": "Latium",
+      "Produces": "Schweine",
+      "Requires": [],
+      "SecondsToProduce": 30
+    },
+    {
+      "Name": "Seifensieder",
+      "Belonging": "Latium",
+      "Produces": "Seife",
+      "Requires": [
+        "Lavandula",
+        "Schmalz"
+      ],
+      "SecondsToProduce": 60
+    },
+    {
+      "Name": "Lavendulahof",
+      "Belonging": "Latium",
+      "Produces": "Lavendula",
+      "Requires": [],
+      "SecondsToProduce": 120
+    },
+    {
+      "Name": "Sülzsieder",
+      "Belonging": "Latium",
+      "Produces": "Schmalz",
+      "Requires": [
+        "Schweine",
+        "Kohle"
+      ],
+      "SecondsToProduce": 60
+    },
+    {
+      "Name": "Töpfer",
+      "Belonging": "Latium",
+      "Produces": "Amphoren",
+      "Requires": [
+        "Lehm",
+        "Kohle",
+        "Harz"
+      ],
+      "SecondsToProduce": 60
+    },
+    {
+      "Name": "Harzzapfer",
+      "Belonging": "Latium",
+      "Produces": "Harz",
+      "Requires": [],
+      "SecondsToProduce": 60
+    },
+    {
+      "Name": "Olivenpresse",
+      "Belonging": "Latium",
+      "Produces": "Olivenöl",
+      "Requires": [
+        "Oliven"
+      ],
+      "SecondsToProduce": 90
+    },
+    {
+      "Name": "Olivenzüchter",
+      "Belonging": "Latium",
+      "Produces": "Oliven",
+      "Requires": [],
+      "SecondsToProduce": 120
+    }
+  ],
+  "Citizens": [
+    {
+      "Name": "Liberti",
+      "Belonging": "Latium",
+      "Needs": {
+        "Sardinen": 0.01785,
+        "Haferbrei": 0.01388,
+        "Tuniken": 0.01785,
+        "Pilei": 0.01666
+      }
+    },
+    {
+      "Name": "Plebejer",
+      "Belonging": "Latium",
+      "Needs": {
+        "Sardinen": 0.01376,
+        "Haferbrei": 0.01136,
+        "Brot": 0.01102,
+        "Garum": 0.00870,
+        "Tuniken": 0.01376,
+        "Pilei": 0.01303,
+        "Sandalen": 0.00650,
+        "Seife": 0.01425,
+        "Amphoren": 0.01200,
+        "Olivenöl": 0.00735
+      }
+    }
+  ]
+}
