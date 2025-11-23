@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "HL5yfg05",
+  "version": "voHUeTUh",
   "assets": [
     {
       "hash": "sha256-UnHPm0I3c4Q6s713S1L+qFMfCW+FMcKeYhJNXCNgQDM=",
       "url": "AnnoCalculator.styles.css"
     },
     {
-      "hash": "sha256-A6YtVf1J6PRiG2hXJGBJBw5RTpXWFU4/Kd7EQrzojZA=",
-      "url": "_framework/AnnoCalculator.bahym5x0jy.wasm"
+      "hash": "sha256-MHzDuD5vFCS4OTdMXtxqhWFCo9o0HkU3bN+c7A94nzI=",
+      "url": "_framework/AnnoCalculator.cpkw3g305z.wasm"
     },
     {
       "hash": "sha256-8oeJn+cigP7jjiqoL3uTCbUVUIIMElyk7kIt3RcQyA0=",
@@ -182,8 +182,8 @@ self.assetsManifest = {
       "url": "_framework/blazor.webassembly.66stpp682q.js"
     },
     {
-      "hash": "sha256-JSUdFu5zsjxvAPmZCLu++4HSPMp6IKdTtX1zlWYTaOs=",
-      "url": "_framework/dotnet.5kd2kosf8i.js"
+      "hash": "sha256-pj0+RBfYgi2vkMAIm+e75sX+Y+K50dt7VBKCVp1I3zs=",
+      "url": "_framework/dotnet.i2sdjwwmtl.js"
     },
     {
       "hash": "sha256-Jq16DJlsNP/EZy3u5dUfhPu0r4vqciQE3d0LSaelSes=",
@@ -230,7 +230,7 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-pmylh1KNUU2C1Xtr4dQIuj18mXxVQQuGh3Pz9eNtr8A=",
+      "hash": "sha256-3fTyBj/pKdBwncNVwZZR0U1Y4MPqakQ5hVsdJOiUx8Q=",
       "url": "index.html"
     },
     {
