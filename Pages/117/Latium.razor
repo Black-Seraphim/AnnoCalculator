@@ -1,0 +1,56 @@
+﻿@page "/117/Latium"
+@using AnnoCalculator.Models
+@using AnnoCalculator.Services
+@inject DataLoader DataLoader
+
+<h1>Latium</h1>
+
+
+@if (citizenCounts is not null)
+{
+    <h3>Bürger</h3>
+
+    <div class="input-group">
+        @foreach (var citizen in citizenCounts.Keys.ToList())
+        {
+            <div class="form-group me-3">
+                <label>@citizen</label>
+                <InputNumber TValue="int"
+                             ValueChanged="(val) => OnCitizenCountChanged(citizen, val)"
+                             ValueExpression="@(() => citizenCounts[citizen])" 
+                             class="form-control"
+                             Min="0"
+                             step="10" />
+            </div>
+        }
+    </div>
+
+    @if (requiredBuildings is not null && requiredBuildings.Count > 0)
+    {
+        <h3>Bedarf an Gebäuden</h3>
+        <table class="table table-bordered table-striped w-auto">
+            <thead>
+                <tr>
+                    <th>Gebäude</th>
+                    <th>Benötigte Anzahl</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var need in requiredBuildings)
+                {
+                    <tr>
+                        <td>@need.Key</td>
+                        <td>@need.Value.ToString("F2")</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    }
+
+
+}
+else
+{
+    <p>Lade Einwohnerdaten…</p>
+}
